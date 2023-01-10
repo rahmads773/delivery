@@ -1,0 +1,9 @@
+.btn-shape{
+    background-color: $mainColor;
+    padding: 12px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    &:hover{
+        background-color: #fec827;
+    }
+}

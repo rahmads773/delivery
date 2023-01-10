@@ -1,0 +1,32 @@
+.services{
+    text-align: center;
+    padding: 20px 0;
+    .container{
+        h2{
+            margin-bottom: 30px;
+            font-size: 30px;
+        }
+        .services-container{
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+            gap: 20px;
+         .service{
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 10px #1a1a182d;
+            p{
+color: $textColor;
+            }
+            img{
+width: 200px;
+            }
+            a{
+            color: $headingColor;
+            display: block;
+            margin: 0 auto 10px;
+            }
+         }
+        }
+    }
+}

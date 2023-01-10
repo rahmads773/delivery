@@ -1,0 +1,51 @@
+.dark{
+    background-color: black;
+    color: white;
+    header{
+        .logo{
+            color: white;
+        }
+        ul{
+            &.active{
+                a{
+                    color: black !important;
+                }
+            }
+            a{
+                color: white !important;
+                &:hover{
+                    color: black !important;
+                }
+            }
+            i{
+                color: white;
+            }
+        }
+       
+        .menu{
+          span{
+            background-color: white !important;
+          }
+        }
+    }
+
+    .btn-shape{
+        color: black;
+    }
+    .section{
+       h2{
+        color: white !important;
+       }
+    }
+    .services{
+        .service{
+            box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.366) !important;
+a{
+    color: white !important;
+}
+        }
+    }
+    footer{
+        color: black;
+    }
+}

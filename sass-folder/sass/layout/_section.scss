@@ -1,0 +1,42 @@
+.section{
+    padding:55px 0;
+    .container{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+       
+        @media (max-width:992px) {
+            text-align: center;
+            justify-content: center;
+        }
+        .image{
+            img{
+              width: 650px;
+              @media (max-width:767px) {
+                width: 450px;
+                max-width: 100%;
+            }
+            }
+        }
+        .text{
+            margin-left: 20px;
+            flex: 1;
+            @media (max-width:992ox) {
+                margin-left: 0;
+            }
+            h2{
+          font-size: 30px;
+          color: $headingColor;
+          line-height: 1.5;
+            }
+            p{
+        color: $textColor;
+        line-height: 1.5;
+        max-width: 400px;
+        @media (max-width:992px) {
+            margin: auto;
+        }
+            }
+        }
+    }
+}

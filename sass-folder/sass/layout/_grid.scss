@@ -1,0 +1,30 @@
+@import '../helpers/mixins';
+*{
+    @include prefixer(box-sizing, border-box, moz webkit);
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  transition: .5s;
+}
+.container{
+    margin: auto;
+    padding-left:15px ;
+    padding-right:15px ;
+
+    @media (min-width: 768px) {
+      width: 750px;
+    }
+      @media (min-width: 992px) {
+  
+      width: 970px;
+
+  }
+  @media (min-width: 1200px) {
+   
+    width: 1170px;
+  
+}
+}
+
